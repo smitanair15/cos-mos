@@ -119,8 +119,7 @@ TestData$Credit_History[is.na(TestData$Credit_History)] <- "1"
 
 TestData$Credit_History<-as.factor(TestData$Credit_History)
 
-
-# Property_Area factor no missing values
+#Property_Area factor -no missing values
 
 str(TrainData)
 str(TestData)
